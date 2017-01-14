@@ -1,8 +1,9 @@
-#pragma once
 #include <UTFT.h>
 #include "Wire.h"
 using namespace std;
 
+#ifndef SQUARE_H
+#define SQUARE_H
 class Square
 {
   private:
@@ -21,4 +22,4 @@ class Square
   void drawSq(int);
   void ersSq();
 };
-
+#endif

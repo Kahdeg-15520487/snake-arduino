@@ -34,9 +34,8 @@ void Insert_first (List &L, Square x)  //Chen x vao vi tri dau tien trong danh s
     P->next = L; //Cho P tro den L
     L = P; //L tro ve P
 }
-
-
-  
+#ifndef SNAKE_SC_H
+#define SNAKE_SC_H
 class Snake
 {
   private:
@@ -53,4 +52,5 @@ class Snake
 
   
 };
+#endif
 
