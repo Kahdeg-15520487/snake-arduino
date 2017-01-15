@@ -9,7 +9,7 @@ class Square
 {
   private:
   int x, y;
-  
+
   public:
   Square() {x=0;y=0;};
   Square(int X, int Y) {x=X;y=Y;};
@@ -22,4 +22,3 @@ class Square
 
 };
 #endif
-
